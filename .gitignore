@@ -1,0 +1,26 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Database and logs
+news.db
+news.db-*
+collector.log
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
